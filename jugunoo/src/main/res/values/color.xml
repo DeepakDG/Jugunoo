@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_background">#FFFFFF</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="buttonClrN">#62A30F</color>
+    <color name="buttonClrP">#4e820c</color>
+    <color name="background">#CC000000</color>
+    <color name="semiBack">#66424242</color>
+    <color name="translucent_black">#E6000000</color>
+    <color name="translucent_white">#00000000</color>
+    <color name="trans_white_shade">#26000000</color>
+    <color name="progressbarcolor">#2E2E2E</color>
+    <color name="pro_thumbnail">#5E8E00</color>
+    <color name="white">#ffffff</color>
+    <color name="refresh_grean">#6AB301</color>
+    <color name="refresh_light_green">#56CDBF</color>
+    <color name="refresh_green_dark">#2A6301</color>
+    <color name="refresh_yellow">#C3DB00</color>
+    <color name="red_light">#ffdf2b1a</color>
+    <color name="red">#CB2A1A</color>
+    <color name="red_dark">#ffc12a1a</color>
+    <color name="red_darker">#ff8f2119</color>
+    <color name="green_light">#ff4ead0b</color>
+    <color name="green">#4B990B</color>
+    <color name="green_dark">#ff478f0b</color>
+    <color name="green_darker">#ff385d0c</color>
+    <color name="blue_light">#ff379dbe</color>
+    <color name="blue">#318AAA</color>
+    <color name="blue_dark">#ff327fa0</color>
+    <color name="blue_darker">#ff2e4f6e</color>
+    <color name="yellow_light">#ffe3d000</color>
+    <color name="yellow">#CFBC00</color>
+    <color name="yellow_dark">#ffc5b200</color>
+    <color name="yellow_darker">#ff938000</color>
+    <color name="magenta_light">#ff8b3494</color>
+    <color name="magenta">#773180</color>
+    <color name="magenta_dark">#ff6d3176</color>
+    <color name="magenta_darker">#ff3b2144</color>
+    <color name="grey_light">#ffc3c0a7</color>
+    <color name="grey">#ffafac93</color>
+    <color name="grey_dark">#ffa5a286</color>
+    <color name="grey_darker">#ff696659</color>
+    <color name="black">#99000000</color>
+    <color name="gray">#A6A6A6</color>
+    <color name="light_gray">#EBEBEB</color>
+    <color name="light_green">#CCDAA3</color>
+    <color name="light_blue">#97E0D8</color>
+    <color name="googlegreen">#00933B</color>
+
+    <!-- Material floating button -->
+    <color name="material_green_button">#FF9800</color>
+    <color name="material_green_button_pressed">#388E3C</color>
+    <color name="material_ripple">#4CAF50</color>
+
+    <!-- new action bar color -->
+    <color name="action_bar_new">#049e20</color>
+    <color name="action_bar_dark">#008E1A</color>
+
+</resources>

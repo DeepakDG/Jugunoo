@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JUGUNOO</string>
+    <string name="title_profile">Search Cabs</string>
+    <string name="title_bookHistory">Cabs nearby</string>
+    <string name="title_promotions">Track</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="chk_enable">Enable Fleet Management</string>
+
+    <!-- Profile -->
+    <string name="active">Active</string>
+    <string name="views">View:</string>
+    <string name="groups">Groups</string>
+    <string name="users">Users</string>
+    <string name="inactive">Inactive</string>
+    <string name="all">All</string>
+    <string name="groupName">Group Name</string>
+    <string name="mgrUserName">Managing User Name</string>
+    <string name="fleetOperators">Fleet Operators</string>
+    <string name="userName">User Name</string>
+    <string name="selectAl">Select All</string>
+    <string name="deselectAll">Deselect</string>
+    <string name="addFleetTitle">Fleet Operators</string>
+    <string name="addUserTitle">Users</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+
+ <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Profile</item>
+        <item>Trip Log</item>
+        <item>About Us</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="nav_drawer_items_Groupuser">
+        <item>Profile</item>
+        <item>Trip Log</item>
+        <item>Preference</item>
+        <item>About Us</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="nav_drawer_items_super">
+        <item>Profile</item>
+        <item>Trip Log</item>
+        <item>Preference</item>
+        <item>Requests</item>
+        <item>About Us</item>
+        <item>Logout</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/update_profile</item>
+        <item>@drawable/clock</item>
+        <!-- <item>@drawable/pack_book</item> -->
+        <item>@drawable/about_us</item>
+        <item>@drawable/logout</item>
+    </array>
+    <array name="nav_drawer_icons_groupuser">
+        <item>@drawable/update_profile</item>
+        <item>@drawable/clock</item>
+        <item>@drawable/preference</item>
+        <!-- <item>@drawable/pack_book</item> -->
+        <item>@drawable/about_us</item>
+        <item>@drawable/logout</item>
+    </array>
+    <array name="nav_drawer_icons_super">
+        <item>@drawable/update_profile</item>
+        <item>@drawable/clock</item>
+        <item>@drawable/preference</item>
+        <item>@drawable/ic_action_user_add</item>
+        <item>@drawable/about_us</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <string name="english">English</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="hindi">हिंदी</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="marathi">मराठी</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="punjabi">Panjabi</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="gujarati">Gujarati</string>
+    <string name="bengali">বাঙ্গালী</string>
+
+    <!-- Login -->
+    <string name="loginTitle">Login</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="driverInfo">Driver Information</string>
+    <string name="driverName">Name</string>
+    <string name="driverGender">Gender</string>
+    <string name="driverMobile">Mobile no</string>
+    <string name="driverEmail">Email</string>
+    <string name="driverCabName">Cab Name</string>
+    <string name="driverTripID">Trip ID</string>
+    <string name="passengerMobile">Passenger Mobile No</string>
+    <string name="driverCabDrName">Driver Name</string>
+    <string name="cabDistance">Distance</string>
+    <string name="driverCabNo">Cab No</string>
+    <string name="driverCabType">Cab Type</string>
+    <string name="driverCabRegNo">Cab Reg No</string>
+    <string name="driverCabCapacity">Capacity</string>
+    <string name="startDriver">Driver</string>
+    <string name="startPassenger">Passenger</string>
+    <string name="colon">:</string>
+    <string name="selectCab">Select a Cab!</string>
+    <string name="driverLocTracking">Juguno Location tracking!</string>
+    <string name="notifyLabel">Passenger waiting for trip!</string>
+    <string name="register">Registration</string>
+    <string name="addTracker">Add Tracker</string>
+    <string name="updateProfile">Update Profile</string>
+    <string name="regFirstName">Name</string>
+    <string name="regConPwd">Confirm password</string>
+    <string name="regLastName">LastName</string>
+    <string name="regGender">Gender</string>
+    <string name="regMobile">Mobile</string>
+    <string name="regEmail">Email Id</string>
+    <string name="regCompany">Company Name</string>
+    <string name="regCompanyEmail">Corporate Email Id</string>
+    <string name="regGroup">Group Name</string>
+    <string name="regUserName">User Name</string>
+    <string name="regPassword">Password</string>
+    <string name="registerAc">Register</string>
+    <string name="reset">Reset</string>
+    <string name="cancelCab">Cancel</string>
+    <string name="pickDate">Done</string>
+    <string name="waitMsg">Please wait&#8230;</string>
+    <string name="signUpMsg">Do you want to Register your profile?</string>
+    <string name="registerMsg">Registration is mandatory for booking cabs! Want to go back to Regiser your profile?</string>
+    <string name="feedbackTitle">SHARE YOUR EXPERIENCE</string>
+    <string name="feedbackPopupTitle">Share your experience of your previous journey</string>
+    <string name="additionalInfo">Comments</string>
+    <string name="selectTrackerTitle">Select Tracker</string>
+    <string name="signupMsg">Signup now to get the most out of Jugunoo</string>
+    <string name="signup">Sign up</string>
+    <string name="login">Login</string>
+    <string name="pickuplocation">Pickup Location</string>
+    <string name="droplocation">Drop Location</string>
+    <string name="clearAddress">Clear Address</string>
+    <string name="drop_address">Drop Address</string>
+    <string name="request">Request</string>
+    <string name="selectAll">Select all</string>
+    <string name="abort">Abort</string>
+    <string name="pinMsg">Thanks! Did you get a SMS for One Time Password? Enter it here.</string>
+    <string name="pinMsgverifyAgain">Verification failed. Click on verify again!</string>
+    <string name="pinMsgwrong">Tap here to reset!</string>
+    <string name="pinVerify">Verify my mobile</string>
+    <string name="pinresend">Tap to receive OTP</string>
+    <string name="cpassword">Confirm Password</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="verify">Verify</string>
+    <string name="book">Book</string>
+    <string name="add">Add</string>
+    <string name="proceed">Proceed</string>
+    <string name="tariff">Tariff</string>
+    <string name="ok">Ok</string>
+    <string name="signout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="notnow">Not now</string>
+    <string name="submit">Submit</string>
+    <string name="forgotPwd">Forgot password ?</string>
+    <string name="fare">Fare</string>
+    <string name="time">Time</string>
+    <string name="distance">Distance</string>
+    <string name="pickPiont">PICKUP LOCATION</string>
+    <string name="dropPiont">DROP LOCATION</string>
+    <string name="rateLabel">Rate the trip!</string>
+    <string name="aboutus">Born to redefine  the way in travel with the respective cost, convenience and safety. Jugunoo as the name suggests, is the most convenient way to communicate within your city or on a long trips. Use Jugunoo to access taxis  of 4 different types as listed below, depending on your needs and affordability, just by a TAP  on your smart phone, by a few clicks  on www.Jugunoo.com or by access to the booking call center.</string>
+    <string name="beer">Beer</string>
+    <string name="toast_error_in_app_billing">Unfortunately there was a payment problem: %s</string>
+    <string name="cabMMessage">Tap on one of the vehicle type shown below to request.</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="tripLogs">Trip Logs</string>
+    <string name="cabType">Type</string>
+    <string name="mins">-NA-</string>
+    <string name="cabTypeAuto">AUTO</string>
+    <string name="cabTypeMini">MINI</string>
+    <string name="cabTypeSedan">SEDAN</string>
+    <string name="cabTypePre">PREMIUM</string>
+    <string name="cabTypeLuxury">LUXY</string>
+    <string name="recentTripMsg">Recent trips</string>
+    <string name="favoriteTripMsg">Favorite trips</string>
+    <string name="fleetUpdated">Fleet Operator Status updated successfully</string>
+    <string name="startPonit">Start Location</string>
+    <string name="endPonit">End Location</string>
+    <string name="engTime">Time</string>
+    <string name="aboutUsTitle">About Us</string>
+    <string name="profileTitle">Profile</string>
+    <string name="changePwd">Change password</string>
+    <string name="oldPwd">Old password</string>
+    <string name="newPwd">New password</string>
+    <string name="cnfPwd">Confirm password</string>
+    <string name="selectCountry">Select country</string>
+    <string name="fetchLocation">Updating the location. Please wait&#8230;</string>
+    <string name="network_msg">Network Unavailable</string>
+    <string name="login_error_msg">Mobile no and Password are mandatory</string>
+    <string name="login_pass_err_msg">Password is required.</string>
+    <string name="network_error_msg">Not able to connect, please try again.</string>
+    <string name="network_failed_msg">Check your network connection \n and try again</string>
+    <string name="registration_error_msg">Registration failed. Try again.</string>
+    <string name="logout_success_msg">Logout Successful.</string>
+    <string name="unable_to_logout">Unable to Logout.</string>
+    <string name="retrybtn">Retry</string>
+    <string name="pinMsgresend">Didn\'t receive an SMS?</string>
+    <string name="newOldSame">Your new password  is same as old.</string>
+    <string name="pwdNotMatch">Entered Passwords does not match. Try again.</string>
+    <string name="enterRequired">Enter the fields marked as Required</string>
+    <string name="loginAgain">Password change successful. Login with new credentials.</string>
+    <string name="OldPwdNotMatch">Old Password does not match. Try again.</string>
+    <!-- <string name="crash_toast_text">Oops Jugunoo crashed. Report will be sent.</string> -->
+    <string name="terms_text">&lt;u>Terms and conditions of Use&lt;/u></string>
+    <string name="terms_url">http://www.jugunoo.com/about.html</string>
+    <string name="crash_toast_text">Jugunoo Crashed. Report will be sent</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="book_later">BOOK LATER</string>
+    <string name="tariff_book_form"><u>Tariff ?</u></string>
+
+    <!-- TripLogs Strings -->
+    <string name="trip_pending">Pending</string>
+    <string name="trip_abort">Cancelled</string>
+    <string name="trip_completed">Completed</string>
+    <string name="trip_update">Update</string>
+    <string name="trip_cancel">Cancel</string>
+    <string name="ok_msg">Ok</string>
+    <string name="cancel_msg">Cancel</string>
+    <string name="trip_cancel_booking">Cancel Booking</string>
+    <string name="trip_change_booking">Change Booking</string>
+    <string name="trip_booking_id">Booking No :</string>
+    <string name="trip_date_time">DateTime :</string>
+    <string name="trip_vehicle_no">Vehicle No :</string>
+    <string name="trip_driver_name">DriverName :</string>
+    <string name="trip_company">Company :</string>
+    <string name="end_date">End date :</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_or_mobile_hint">User name or mobile no</string>
+
+    <!-- Alert Dialog String -->
+    <string name="alert_title">Alert Dialog</string>
+    <string name="text">Text</string>
+
+    <!-- Booking form String -->
+    <string name="bf_alert_title">User is inactive, are you sure you want to book?</string>
+    <string name="bf_cancel">Cancel</string>
+    <string name="bf_proceed">Proceed</string>
+    <string name="connection_error">Check your network connection \n and try again</string>
+
+    <!-- Crash report String -->
+    <string name="crash_dialog_title">Jugunoo application crashed</string>
+    <string name="crash_dialog_text">Dear user, Unfortunately, Jugunoo application stopped due to technical issue. We apologize for inconvenience.Do you want to report the problem ?</string>
+    <string name="title_activity_booking_form_new">BookingFormNewActivity</string>
+    <string name="title_activity_update_booking_new">UpdateBookingNewActivity</string>
+
+</resources>

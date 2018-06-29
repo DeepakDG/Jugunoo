@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:text="choice"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#3FB2FF" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#3FB2FF" />
+
+    <TextView
+        android:id="@+id/tvChoiceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="15dp"
+        android:text="text"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BABABA"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvDeleteGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Delete Group"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="gone" >
+    </TextView>
+
+</LinearLayout>

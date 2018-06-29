@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/addfleet_Errorstate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/addfleet_networktxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/network_failed_msg"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/addfleet_retrybtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/retrybtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAddGroupMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/etGroupName"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@drawable/edittext_selector"
+            android:ems="10"
+            android:hint="@string/groupName"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/jugunoo_edittext_cursor_color" />
+
+        <EditText
+            android:id="@+id/etMgrUserName"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_selector"
+            android:ems="10"
+            android:hint="@string/mgrUserName"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/jugunoo_edittext_cursor_color" />
+
+        <ProgressBar
+            android:id="@+id/usernameProgress"
+            style="?android:attr/progressBarStyleInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/regUserNameL"
+            android:layout_alignRight="@id/regUserNameL"
+            android:layout_alignTop="@id/regUserNameL"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/nameList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/regUserNameL"
+            android:visibility="gone" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/tvFleetTitle"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Select Fleet Operator for the Group" />
+
+        <LinearLayout
+            android:id="@+id/listHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/txtHeader"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/fleetOperators" />
+
+            <CheckBox
+                android:id="@+id/headerCheck"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectAl" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/groupDList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listHeader" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/etCompanyAddCorporateInfo"
+        style="@style/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_selector"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/regCompany"
+        android:imeOptions="actionNext"
+        android:padding="12dp"
+        android:textCursorDrawable="@drawable/jugunoo_edittext_cursor_color" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etGroupnameAddCorporateInfo"
+        style="@style/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_selector"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/regGroup"
+        android:imeOptions="actionNext"
+        android:padding="12dp"
+        android:textCursorDrawable="@drawable/jugunoo_edittext_cursor_color" >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etEmailAddCorporateInfo"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_selector"
+            android:ems="10"
+            android:hint="@string/regCompanyEmail"
+            android:imeOptions="actionNext"
+            android:inputType="textNoSuggestions|textWebEmailAddress"
+            android:padding="12dp"
+            android:textCursorDrawable="@drawable/jugunoo_edittext_cursor_color" >
+        </EditText>
+
+        <ProgressBar
+            android:id="@+id/progMailAddCorporateInfo"
+            style="?android:attr/progressBarStyleInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/etEmailAddCorporateInfo"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btProceedAddCorporateInfo"
+        style="@style/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_button"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/proceed" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+package com.hirecraft.jugunoo.passenger.utility;
+
+import android.content.Context;
+import android.os.PowerManager;
+
+public abstract class WakeLocker
+{
+	public static PowerManager.WakeLock wakeLock = null;
+
+	public static void acquire(Context context)
+	{
+		if (wakeLock != null)
+			wakeLock.release();
+
+		PowerManager pm = (PowerManager) context
+				.getSystemService(Context.POWER_SERVICE);
+		// wakeLock = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK
+		// | PowerManager.ACQUIRE_CAUSES_WAKEUP
+		// | PowerManager.ON_AFTER_RELEASE, "WakeLock");
+		wakeLock = pm.newWakeLock(pm.SCREEN_BRIGHT_WAKE_LOCK, "WakeLock");
+		wakeLock.acquire();
+	}
+
+	public static void release()
+	{
+		if (wakeLock != null)
+			wakeLock.release();
+		wakeLock = null;
+	}
+}

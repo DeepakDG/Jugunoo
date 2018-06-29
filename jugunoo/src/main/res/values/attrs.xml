@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="color" format="color" />
+
+    <!--
+    <declare-styleable name="ComboSeekBar">
+        <attr name="multiline" format="boolean" />
+        <attr name="color" />
+        <attr name="icon" format="integer" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    -->
+
+    <declare-styleable name="SnappingSeekBar">
+        <attr name="progressDrawable" format="reference" />
+        <attr name="thumb" format="reference" />
+        <attr name="itemsAmount" format="integer" />
+        <attr name="itemsArrayId" format="reference" />
+        <attr name="indicatorDrawable" format="reference" />
+        <attr name="indicatorSize" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="thumbnailColor" format="color" />
+        <attr name="textIndicatorColor" format="color" />
+        <attr name="textStyle" format="reference" />
+        <attr name="textIndicatorTopMargin" format="dimension" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_shadow" format="boolean" />
+        <attr name="fab_type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

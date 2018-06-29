@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_items">
+        <item>HOME_</item>
+        <item>CABS NEARBY</item>
+        <item>SEARCH CABS</item>
+        <item>FOLLOW ME</item>
+        <item>ADD FOLLOWERS</item>
+        <item>PROFILE</item>
+        <item>PACKAGE BOOKING</item>
+        <item>TRIP LOG</item>
+        <item>ABOUT US</item>
+    </string-array>
+</resources>

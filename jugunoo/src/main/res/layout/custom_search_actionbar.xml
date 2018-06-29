@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlNavIconGroupUser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/action_bar_new" >
+
+    <ImageView
+        android:id="@+id/imgBackIconGroupUser"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:background="@drawable/actionbar_backpressed_selector_new"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="2dp"
+        android:paddingRight="5dp"
+        android:src="@drawable/ic_action_previous_item" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/imgBackIconGroupUser"
+        android:background="@drawable/buttom_line_white" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_action_search_white" />
+
+        <EditText
+            android:id="@+id/etSearchUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Search user"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="#D0D0D0" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/ivCancle"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_action_cancel_white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

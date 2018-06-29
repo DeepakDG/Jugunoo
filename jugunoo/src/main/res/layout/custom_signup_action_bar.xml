@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#62A30F"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_nav_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/selector_actionbar_button" >
+
+        <ImageView
+            android:id="@+id/imgSignupNavIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/selector_actionbar_button"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_action_previous_item" />
+
+        <TextView
+            android:id="@+id/tvScreenTitleSignUp"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/imgSignupNavIcon"
+            android:background="@drawable/selector_actionbar_button"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:padding="8dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgSignupNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_actionbar_button"
+        android:contentDescription="@string/app_name"
+        android:paddingRight="8dp"
+        android:visibility="gone"
+         android:src="@android:drawable/ic_menu_directions" />
+
+    <!--
+         <ImageView
+        android:id="@+id/refreshBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/barChangePwd"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/selector_refresh_icon" />
+    -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/barChangePwd"
+        android:background="#44720a"
+        android:visibility="gone" />
+
+</RelativeLayout>

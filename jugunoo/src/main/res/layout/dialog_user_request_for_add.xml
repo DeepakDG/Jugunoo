@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="0dp" >
+
+    <TextView
+        android:id="@+id/tvHeaderUpdateGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:text="@string/text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#3FB2FF" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#3FB2FF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/etUpdateGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/groupName"
+            android:padding="10dp" />
+
+        <CheckBox
+            android:id="@+id/chkEnableGroupAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etUpdateGroupName"
+            android:layout_below="@+id/etUpdateGroupName"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="Change Group Admin"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/etUpdateGroupAdmins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/chkEnableGroupAdmin"
+            android:layout_below="@+id/chkEnableGroupAdmin"
+            android:ems="10"
+            android:hint="Group Admin"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llBtnRenameGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btCancelRenameGroups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/selector_buttonpress"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/cancel"
+            android:textColor="#444444" />
+
+        <Button
+            android:id="@+id/btProceedRenameGroups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/selector_buttonpress"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/proceed"
+            android:textColor="#62A30F" />
+    </LinearLayout>
+
+</LinearLayout>

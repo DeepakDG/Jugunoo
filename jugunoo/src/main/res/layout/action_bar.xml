@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#62A30F"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionBackL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/selector_actionbar_button" >
+
+        <ImageView
+            android:id="@+id/actionBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/selector_actionbar_button"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_action_previous_item" />
+
+        <TextView
+            android:id="@+id/screenTitles"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/actionBack"
+            android:background="@drawable/selector_actionbar_button"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingRight="10dp"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/actionSave"
+        style="@style/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_actionbar_button"
+        android:paddingRight="16dp"
+        android:text="@string/save"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/actionCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nav_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/bar1"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/selector_call_icon"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/bar2"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bar1"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/actionCall"
+        android:background="#44720a"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/actionMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/actionCall"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/bar2"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/selector_msg_icon"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/bar1"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/actionSave"
+        android:background="#44720a"
+        android:visibility="gone" />
+
+</RelativeLayout>
